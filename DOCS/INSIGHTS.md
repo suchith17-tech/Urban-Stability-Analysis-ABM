@@ -115,4 +115,3 @@ This means trust acts as a **leading indicator** — policymakers monitoring urb
 
 ---
 
-*Document generated: April 2026 | Amruth Amruth | Urban Stability ABM Project, Phase 7*

@@ -1,4 +1,4 @@
-# 🏙️ Urban Stability ABM — Karnataka, India
+# 🏙️ Urban Stability Analysis using ABM — Karnataka, India
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white" />
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  🔗 <a href="https://abm-urban-stability.streamlit.app"><strong>Live Demo → abm-urban-stability.streamlit.app</strong></a>
+  🔗 <a href="https://urban-stability-analysis-abm.streamlit.app"><strong>Live Demo → urban-stability-analysis-abm.streamlit.app</strong></a>
 </p>
 
 ---
@@ -171,7 +171,7 @@ Belagavi has the **lowest absolute resource base** but achieves the **highest US
 ## 🗂️ Repository Structure
 
 ```
-ABM_Urban_Stability/
+Urban-Stability-Analysis-ABM/
 │
 ├── streamlit_app.py              # Main dashboard (4 tabs)
 │
@@ -234,8 +234,8 @@ ABM_Urban_Stability/
 
 ```bash
 # 1. Clone
-git clone https://github.com/Raiden-24/ABM_Urban_Stability.git
-cd ABM_Urban_Stability
+git clone https://github.com/suchith17-tech/Urban-Stability-Analysis-ABM.git
+cd Urban-Stability-Analysis-ABM
 
 # 2. Environment
 python -m venv venv
@@ -348,9 +348,9 @@ scipy>=1.12
 
 ## 👤 Author
 
-**Amruth** — ABM Research, Urban Policy Simulation  
-Repository: [github.com/Raiden-24/ABM_Urban_Stability](https://github.com/Raiden-24/ABM_Urban_Stability)  
-Live App: [abm-urban-stability.streamlit.app](https://abm-urban-stability.streamlit.app)
+**Suchith M D** — ABM Research, Urban Policy Simulation  
+Repository: [github.com/suchith17-tech/Urban-Stability-Analysis-ABM](https://github.com/suchith17-tech/Urban-Stability-Analysis-ABM)  
+Live App: [urban-stability-analysis-abm.streamlit.app](https://urban-stability-analysis-abm.streamlit.app)
 
 ---
 
