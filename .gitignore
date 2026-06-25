@@ -1,0 +1,87 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environment ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Streamlit cache ──────────────────────────────────────────────────────────
+.streamlit/
+
+# ── IDE / OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── Temporary scripts ────────────────────────────────────────────────────────
+err.txt
+fix_paths.py
+test_imports.py
+
+# ── Raw datasets (not redistributable, reproducible by running pipelines) ────
+DATASETS/
+
+# ── Generated figures (reproducible via 12_analyze_results.py) ───────────────
+results/figures/
+
+# ── All per-city CSVs (reproducible via 11_run_experiments.py) ───────────────
+# Exclude individual city files but KEEP _all_cities.csv (needed by dashboard Tab 2)
+results/experiments/exp1_baseline/Bengaluru.csv
+results/experiments/exp1_baseline/Mysuru.csv
+results/experiments/exp1_baseline/Mangaluru.csv
+results/experiments/exp1_baseline/Hubballi_Dharwad.csv
+results/experiments/exp1_baseline/Belagavi.csv
+results/experiments/exp2_flood/Bengaluru.csv
+results/experiments/exp2_flood/Mysuru.csv
+results/experiments/exp2_flood/Mangaluru.csv
+results/experiments/exp2_flood/Hubballi_Dharwad.csv
+results/experiments/exp2_flood/Belagavi.csv
+results/experiments/exp3_drought/Bengaluru.csv
+results/experiments/exp3_drought/Mysuru.csv
+results/experiments/exp3_drought/Mangaluru.csv
+results/experiments/exp3_drought/Hubballi_Dharwad.csv
+results/experiments/exp3_drought/Belagavi.csv
+results/experiments/exp4_economic/Bengaluru.csv
+results/experiments/exp4_economic/Mysuru.csv
+results/experiments/exp4_economic/Mangaluru.csv
+results/experiments/exp4_economic/Hubballi_Dharwad.csv
+results/experiments/exp4_economic/Belagavi.csv
+results/experiments/exp5a_shock_nopolicy/Bengaluru.csv
+results/experiments/exp5a_shock_nopolicy/Mysuru.csv
+results/experiments/exp5a_shock_nopolicy/Mangaluru.csv
+results/experiments/exp5a_shock_nopolicy/Hubballi_Dharwad.csv
+results/experiments/exp5a_shock_nopolicy/Belagavi.csv
+results/experiments/exp5b_shock_policy/Bengaluru.csv
+results/experiments/exp5b_shock_policy/Mysuru.csv
+results/experiments/exp5b_shock_policy/Mangaluru.csv
+results/experiments/exp5b_shock_policy/Hubballi_Dharwad.csv
+results/experiments/exp5b_shock_policy/Belagavi.csv
+results/experiments/exp6_combined/Bengaluru.csv
+results/experiments/exp6_combined/Mysuru.csv
+results/experiments/exp6_combined/Mangaluru.csv
+results/experiments/exp6_combined/Hubballi_Dharwad.csv
+results/experiments/exp6_combined/Belagavi.csv
+
+# ── Old baseline CSVs in root results/ ─────────────────────────────────────
+results/Bengaluru_baseline.csv
+results/Mysuru_baseline.csv
+results/Mangaluru_baseline.csv
+results/Hubballi_Dharwad_baseline.csv
+results/Belagavi_baseline.csv
+results/baseline_run_001.csv
+Bengaluru_baseline.csv
+
+# ── KEEP: minimal CSVs required by dashboard ─────────────────────────────────
+# results/experiments/MASTER_SUMMARY.csv          ← kept (not excluded above)
+# results/experiments/exp1_baseline/_all_cities.csv ← kept

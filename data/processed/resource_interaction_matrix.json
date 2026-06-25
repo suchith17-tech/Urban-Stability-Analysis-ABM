@@ -1,0 +1,31 @@
+{
+  "water_deficit_on_food_utilization": {
+    "coefficient": 0.7152,
+    "raw_correlation": 0.8414,
+    "interpretation": "When water supply drops by X%, food utilization drops by coeff*X%",
+    "source": "consumer_details_per_capita.xlsx, r(Housing, Food) across 27 Karnataka districts"
+  },
+  "electricity_deficit_on_water_pumping": {
+    "coefficient": 0.4581,
+    "raw_correlation": 0.7635,
+    "interpretation": "When electricity drops by X%, water pumping capacity drops by coeff*X%",
+    "source": "consumer_details_per_capita.xlsx, r(Fuel, Housing) across 27 districts"
+  },
+  "food_deficit_on_trust_drop_rate": {
+    "coefficient": 0.6379,
+    "raw_correlation": 0.9113,
+    "interpretation": "When food supply drops by X%, agent trust drops by coeff*X% per step",
+    "source": "consumer_details_per_capita.xlsx, r(Food, Total MPCE) across 27 districts"
+  },
+  "metadata": {
+    "n_districts": 27,
+    "method": "Pearson correlation of urban MPCE expenditure categories across Karnataka districts",
+    "sensitivity_factors": {
+      "water_food": 0.85,
+      "elec_water": 0.6,
+      "food_trust": 0.7
+    },
+    "data_file": "consumer details per capita.xlsx",
+    "academic_disclaimer": "Interaction coefficients are calibrated using cross-district expenditure correlations (Pearson r) scaled by domain-informed sensitivity factors. These are treated as behavioural approximations for ABM parameterisation, NOT causal estimates. The correlations capture co-variation in consumption patterns across Karnataka districts, which serves as a proxy for resource interdependencies in urban systems. For causal identification, instrumental variable or quasi-experimental approaches would be required."
+  }
+}

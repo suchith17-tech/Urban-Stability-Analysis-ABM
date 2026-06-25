@@ -1,0 +1,103 @@
+{
+  "water_norm": {
+    "standard_lpcd": 135,
+    "description": "Minimum domestic water supply standard for urban areas",
+    "24x7_target": true,
+    "priority": "Domestic uses have overriding priority; in normal conditions water allocation follows: (i) Domestic, (ii) Drinking water for animals, (iii) Ecology/environment, (iv) Irrigation, (v) Hydropower, (vi) Agro-industries, (vii) Other uses",
+    "drought_priority": "In scarcity/drought, supply of water will be given first to domestic uses",
+    "source": "StateWaterPolicy-English.pdf, Section 3.1 Water Allocation Priorities, pp. 12-14"
+  },
+  "fhtc_coverage": {
+    "description": "Functional Household Tap Connection coverage under Jal Jeevan Mission",
+    "state_average_pct": 86.82,
+    "by_district": {
+      "Bengaluru_Urban": {
+        "total_hh": 317618,
+        "connected_hh": 221111,
+        "pct": 69.62
+      },
+      "Dharwad": {
+        "total_hh": 201332,
+        "connected_hh": 201146,
+        "pct": 99.91
+      },
+      "Dakshina_Kannada": {
+        "total_hh": 334185,
+        "connected_hh": 295473,
+        "pct": 88.42
+      },
+      "Mysuru": {
+        "total_hh": 501970,
+        "connected_hh": 448762,
+        "pct": 89.4
+      },
+      "Belagavi": {
+        "total_hh": 852433,
+        "connected_hh": 768747,
+        "pct": 90.18
+      }
+    },
+    "water_access_gap_pct": {
+      "Bengaluru": 30.38,
+      "Hubballi-Dharwad": 0.09,
+      "Mangaluru": 11.58,
+      "Mysuru": 10.6,
+      "Belagavi": 9.82
+    },
+    "interpretation": "water_access_gap = fraction of HH without tap connection → reduced water supply in ABM",
+    "source": "FHTCDataTable.pdf, Jal Jeevan Mission, printed 18 Mar 2026"
+  },
+  "anna_bhagya": {
+    "description": "Free rice under Anna Bhagya scheme for BPL/AAY ration card holders",
+    "eligible": "BPL and AAY (Antyodaya) ration card holders",
+    "rice_kg_per_person_per_month": 5,
+    "rice_price_rs_per_kg": 0,
+    "total_entitlement_kg_per_rc": {
+      "AAY": 35,
+      "BPL_priority": 5,
+      "BPL_general": 5
+    },
+    "note": "Under NFSA 2013, AAY households get 35 kg/month at subsidised rates. Anna Bhagya tops this up with free rice for BPL.",
+    "abm_usage": "BPL/AAY agents receive guaranteed rice_kg = min(pds_supply, 5 * household_size) at ₹0",
+    "source": "anna_bhagya_scheme_document.pdf (scanned image; parameters from Karnataka Govt GO No. FD 01 CSM 2023, dated 10-Jun-2023)"
+  },
+  "gruha_jyothi": {
+    "description": "Free electricity up to 200 units/month for all domestic consumers",
+    "eligible": "All domestic consumers with one connection per household",
+    "free_units_per_month": 200,
+    "unit_type": "kWh",
+    "above_threshold_billing": "Normal BESCOM tariff applies for consumption above 200 kWh",
+    "effective_date": "2023-07-01",
+    "abm_usage": "If agent electricity_consumption <= 200 kWh: electricity_cost = 0; else: cost = (consumption - 200) * tariff_rate",
+    "source": "gruha_jyothi_scheeme_document.pdf (scanned image; parameters from Karnataka Govt GO No. EN 116 INL 2023, dated 18-Jun-2023)"
+  },
+  "gruha_lakshmi": {
+    "description": "Monthly cash transfer of ₹2000 to women heads of household",
+    "eligible": "Women head of BPL/APL household (one per family)",
+    "transfer_rs_per_month": 2000,
+    "payment_mode": "Direct Benefit Transfer (DBT) to bank account",
+    "effective_date": "2023-08-15",
+    "abm_usage": "Female-headed HH agents receive income_supplement = 2000 Rs/month; affects consumption capacity and trust",
+    "source": "Gruha-Lakshmi scheme_document.pdf (scanned image; parameters from Karnataka Govt GO No. WCD 33 WMS 2023, dated 19-Jun-2023)"
+  },
+  "dm_response": {
+    "description": "State Disaster Management Policy — response triggers and standards",
+    "seoc_activation": "State Emergency Operation Centre activated 24/7 during disaster",
+    "relief_standards": {
+      "food_per_adult_per_day_rs": 60,
+      "food_per_child_per_day_rs": 45,
+      "temporary_shelter": "Relief camps set up within 24 hours of disaster declaration",
+      "drinking_water": "Emergency water supply arranged within 48 hours"
+    },
+    "restoration_priority": [
+      "1. Power/electricity lines",
+      "2. Water supply and sanitation",
+      "3. Telecommunication",
+      "4. Roads and bridges"
+    ],
+    "relief_duration_months": 3,
+    "rehabilitation_duration_months": 12,
+    "abm_usage": "DM shock triggers emergency supply release; relief supplies supplement resource pool for persistence_months",
+    "source": "Policy Revision DM2020.pdf, Chapter 7: Relief and Rehabilitation, pp. 24-26"
+  }
+}

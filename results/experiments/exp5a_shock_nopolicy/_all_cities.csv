@@ -1,0 +1,121 @@
+step,month,year,USI,Gini,S_R,Trust,active_shocks,city,scenario
+1,1,1,0.812,0.0118,0.5994,0.6604,[],Bengaluru,exp5a_shock_nopolicy
+2,2,1,0.8056,0.0042,0.6058,0.6208,[],Bengaluru,exp5a_shock_nopolicy
+3,3,1,0.7253,0.01,0.4953,0.4159,['drought'],Bengaluru,exp5a_shock_nopolicy
+4,4,1,0.646,0.0174,0.493,0.1098,"['drought', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+5,5,1,0.6309,0.0175,0.4931,0.0527,"['drought', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+6,6,1,0.6546,0.0218,0.631,0.0149,"['drought', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+7,7,1,0.6499,0.0208,0.6248,0.0,"['drought', 'flood', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+8,8,1,0.6566,0.0211,0.6485,0.0,"['flood', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+9,9,1,0.6609,0.0174,0.6611,0.0,['flood'],Bengaluru,exp5a_shock_nopolicy
+10,10,1,0.6393,0.0033,0.5607,0.0,[],Bengaluru,exp5a_shock_nopolicy
+11,11,1,0.6387,0.0026,0.5575,0.0,[],Bengaluru,exp5a_shock_nopolicy
+12,12,1,0.6381,0.0039,0.5565,0.0,[],Bengaluru,exp5a_shock_nopolicy
+13,1,2,0.6422,0.0111,0.58,0.0,[],Bengaluru,exp5a_shock_nopolicy
+14,2,2,0.6455,0.0039,0.5859,0.0,[],Bengaluru,exp5a_shock_nopolicy
+15,3,2,0.6175,0.0094,0.4793,0.0,['drought'],Bengaluru,exp5a_shock_nopolicy
+16,4,2,0.616,0.0159,0.4802,0.0,"['drought', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+17,5,2,0.6182,0.0167,0.4898,0.0,"['drought', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+18,6,2,0.6519,0.0211,0.629,0.0,"['drought', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+19,7,2,0.6509,0.0204,0.6242,0.0,"['drought', 'flood', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+20,8,2,0.6568,0.0211,0.6485,0.0,"['flood', 'economic_crisis']",Bengaluru,exp5a_shock_nopolicy
+21,9,2,0.6608,0.0174,0.6611,0.0,['flood'],Bengaluru,exp5a_shock_nopolicy
+22,10,2,0.6393,0.0033,0.5607,0.0,[],Bengaluru,exp5a_shock_nopolicy
+23,11,2,0.6387,0.0026,0.5575,0.0,[],Bengaluru,exp5a_shock_nopolicy
+24,12,2,0.6381,0.0039,0.5565,0.0,[],Bengaluru,exp5a_shock_nopolicy
+1,1,1,0.9083,0.01,0.93,0.7131,[],Mysuru,exp5a_shock_nopolicy
+2,2,1,0.9111,0.01,0.93,0.7245,[],Mysuru,exp5a_shock_nopolicy
+3,3,1,0.8418,0.0098,0.774,0.6031,['drought'],Mysuru,exp5a_shock_nopolicy
+4,4,1,0.8056,0.0098,0.7924,0.441,"['drought', 'economic_crisis']",Mysuru,exp5a_shock_nopolicy
+5,5,1,0.806,0.0108,0.807,0.4299,"['drought', 'economic_crisis']",Mysuru,exp5a_shock_nopolicy
+6,6,1,0.8557,0.0052,0.987,0.4433,"['drought', 'economic_crisis']",Mysuru,exp5a_shock_nopolicy
+7,7,1,0.8395,0.0049,0.9877,0.3768,"['flood', 'economic_crisis']",Mysuru,exp5a_shock_nopolicy
+8,8,1,0.8419,0.0061,0.9845,0.3896,['flood'],Mysuru,exp5a_shock_nopolicy
+9,9,1,0.8392,0.0109,0.9655,0.4025,['flood'],Mysuru,exp5a_shock_nopolicy
+10,10,1,0.818,0.0109,0.8735,0.4096,[],Mysuru,exp5a_shock_nopolicy
+11,11,1,0.8199,0.0108,0.8739,0.4168,[],Mysuru,exp5a_shock_nopolicy
+12,12,1,0.8219,0.0108,0.8744,0.4241,[],Mysuru,exp5a_shock_nopolicy
+13,1,2,0.837,0.0108,0.9245,0.4346,[],Mysuru,exp5a_shock_nopolicy
+14,2,2,0.8399,0.0108,0.9252,0.4452,[],Mysuru,exp5a_shock_nopolicy
+15,3,2,0.7708,0.0106,0.7707,0.3232,['drought'],Mysuru,exp5a_shock_nopolicy
+16,4,2,0.7326,0.0104,0.782,0.1593,"['drought', 'economic_crisis']",Mysuru,exp5a_shock_nopolicy
+17,5,2,0.731,0.0105,0.791,0.1453,"['drought', 'economic_crisis']",Mysuru,exp5a_shock_nopolicy
+18,6,2,0.7791,0.0103,0.9734,0.1556,"['drought', 'economic_crisis']",Mysuru,exp5a_shock_nopolicy
+19,7,2,0.7621,0.0101,0.974,0.0859,"['flood', 'economic_crisis']",Mysuru,exp5a_shock_nopolicy
+20,8,2,0.7637,0.0111,0.9708,0.0955,['flood'],Mysuru,exp5a_shock_nopolicy
+21,9,2,0.7599,0.0106,0.9456,0.1052,['flood'],Mysuru,exp5a_shock_nopolicy
+22,10,2,0.7385,0.0106,0.8553,0.1094,[],Mysuru,exp5a_shock_nopolicy
+23,11,2,0.7396,0.0105,0.8555,0.1136,[],Mysuru,exp5a_shock_nopolicy
+24,12,2,0.7408,0.0105,0.8558,0.1179,[],Mysuru,exp5a_shock_nopolicy
+1,1,1,0.9195,0.0108,0.9731,0.7158,[],Mangaluru,exp5a_shock_nopolicy
+2,2,1,0.923,0.0106,0.9728,0.7297,[],Mangaluru,exp5a_shock_nopolicy
+3,3,1,0.9178,0.0062,0.985,0.6924,['drought'],Mangaluru,exp5a_shock_nopolicy
+4,4,1,0.8843,0.0053,0.9876,0.5548,"['drought', 'economic_crisis']",Mangaluru,exp5a_shock_nopolicy
+5,5,1,0.8802,0.0064,0.9602,0.5672,"['drought', 'economic_crisis']",Mangaluru,exp5a_shock_nopolicy
+6,6,1,0.8844,0.0026,0.9616,0.5789,['economic_crisis'],Mangaluru,exp5a_shock_nopolicy
+7,7,1,0.8331,0.0174,0.9641,0.3861,"['flood', 'economic_crisis']",Mangaluru,exp5a_shock_nopolicy
+8,8,1,0.8363,0.0115,0.9639,0.3935,['flood'],Mangaluru,exp5a_shock_nopolicy
+9,9,1,0.8412,0.0072,0.9703,0.4021,['flood'],Mangaluru,exp5a_shock_nopolicy
+10,10,1,0.8486,0.006,0.9861,0.415,['flood'],Mangaluru,exp5a_shock_nopolicy
+11,11,1,0.846,0.0107,0.967,0.428,[],Mangaluru,exp5a_shock_nopolicy
+12,12,1,0.8496,0.0108,0.9679,0.4412,[],Mangaluru,exp5a_shock_nopolicy
+13,1,2,0.853,0.0111,0.9687,0.4545,[],Mangaluru,exp5a_shock_nopolicy
+14,2,2,0.8566,0.011,0.9693,0.4679,[],Mangaluru,exp5a_shock_nopolicy
+15,3,2,0.8515,0.0071,0.983,0.4302,['drought'],Mangaluru,exp5a_shock_nopolicy
+16,4,2,0.8172,0.0069,0.9837,0.2919,"['drought', 'economic_crisis']",Mangaluru,exp5a_shock_nopolicy
+17,5,2,0.8101,0.0068,0.9455,0.3019,"['drought', 'economic_crisis']",Mangaluru,exp5a_shock_nopolicy
+18,6,2,0.8139,0.0031,0.9477,0.3114,['economic_crisis'],Mangaluru,exp5a_shock_nopolicy
+19,7,2,0.7625,0.0169,0.9508,0.1167,"['flood', 'economic_crisis']",Mangaluru,exp5a_shock_nopolicy
+20,8,2,0.7639,0.0109,0.9457,0.1215,['flood'],Mangaluru,exp5a_shock_nopolicy
+21,9,2,0.7679,0.0068,0.9515,0.1273,['flood'],Mangaluru,exp5a_shock_nopolicy
+22,10,2,0.7747,0.0108,0.9731,0.1372,['flood'],Mangaluru,exp5a_shock_nopolicy
+23,11,2,0.7711,0.0103,0.948,0.1472,[],Mangaluru,exp5a_shock_nopolicy
+24,12,2,0.7739,0.0104,0.9486,0.1573,[],Mangaluru,exp5a_shock_nopolicy
+1,1,1,0.9199,0.01,0.9738,0.7159,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+2,2,1,0.9235,0.01,0.9738,0.7301,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+3,3,1,0.8115,0.0098,0.7049,0.5509,['drought'],Hubballi-Dharwad,exp5a_shock_nopolicy
+4,4,1,0.7771,0.0098,0.7179,0.4032,"['drought', 'economic_crisis']",Hubballi-Dharwad,exp5a_shock_nopolicy
+5,5,1,0.7753,0.0105,0.7386,0.3773,"['drought', 'economic_crisis']",Hubballi-Dharwad,exp5a_shock_nopolicy
+6,6,1,0.8411,0.0059,0.985,0.3899,"['drought', 'economic_crisis']",Hubballi-Dharwad,exp5a_shock_nopolicy
+7,7,1,0.8074,0.0057,0.9856,0.2528,"['drought', 'flood']",Hubballi-Dharwad,exp5a_shock_nopolicy
+8,8,1,0.8086,0.0082,0.9791,0.2641,['flood'],Hubballi-Dharwad,exp5a_shock_nopolicy
+9,9,1,0.8116,0.0079,0.9796,0.2756,['flood'],Hubballi-Dharwad,exp5a_shock_nopolicy
+10,10,1,0.8085,0.0104,0.9576,0.2871,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+11,11,1,0.8117,0.0105,0.9584,0.2989,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+12,12,1,0.8149,0.0105,0.9592,0.3107,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+13,1,2,0.818,0.0105,0.96,0.3227,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+14,2,2,0.8213,0.0105,0.9608,0.3348,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+15,3,2,0.71,0.0103,0.6963,0.1539,['drought'],Hubballi-Dharwad,exp5a_shock_nopolicy
+16,4,2,0.6746,0.0101,0.7003,0.0098,"['drought', 'economic_crisis']",Hubballi-Dharwad,exp5a_shock_nopolicy
+17,5,2,0.6764,0.0096,0.7189,0.0004,"['drought', 'economic_crisis']",Hubballi-Dharwad,exp5a_shock_nopolicy
+18,6,2,0.7422,0.0099,0.9653,0.0177,"['drought', 'economic_crisis']",Hubballi-Dharwad,exp5a_shock_nopolicy
+19,7,2,0.7428,0.0099,0.9665,0.0177,"['drought', 'flood']",Hubballi-Dharwad,exp5a_shock_nopolicy
+20,8,2,0.7455,0.0099,0.9665,0.0265,['flood'],Hubballi-Dharwad,exp5a_shock_nopolicy
+21,9,2,0.7478,0.0101,0.967,0.0354,['flood'],Hubballi-Dharwad,exp5a_shock_nopolicy
+22,10,2,0.744,0.0097,0.942,0.0444,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+23,11,2,0.7466,0.0098,0.9425,0.0535,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+24,12,2,0.749,0.0098,0.9431,0.0628,[],Hubballi-Dharwad,exp5a_shock_nopolicy
+1,1,1,0.9199,0.01,0.9738,0.7159,[],Belagavi,exp5a_shock_nopolicy
+2,2,1,0.9235,0.01,0.9738,0.7301,[],Belagavi,exp5a_shock_nopolicy
+3,3,1,0.9031,0.0032,0.9915,0.6243,['drought'],Belagavi,exp5a_shock_nopolicy
+4,4,1,0.8817,0.0032,0.9915,0.5385,"['drought', 'economic_crisis']",Belagavi,exp5a_shock_nopolicy
+5,5,1,0.8852,0.0032,0.9915,0.5527,"['drought', 'economic_crisis']",Belagavi,exp5a_shock_nopolicy
+6,6,1,0.8887,0.0032,0.9915,0.5668,"['drought', 'economic_crisis']",Belagavi,exp5a_shock_nopolicy
+7,7,1,0.8673,0.0032,0.9915,0.481,"['drought', 'flood']",Belagavi,exp5a_shock_nopolicy
+8,8,1,0.8702,0.004,0.99,0.495,['flood'],Belagavi,exp5a_shock_nopolicy
+9,9,1,0.874,0.0037,0.9907,0.509,['flood'],Belagavi,exp5a_shock_nopolicy
+10,10,1,0.8716,0.0102,0.9735,0.5232,[],Belagavi,exp5a_shock_nopolicy
+11,11,1,0.8752,0.0101,0.9738,0.5373,[],Belagavi,exp5a_shock_nopolicy
+12,12,1,0.8788,0.01,0.9738,0.5515,[],Belagavi,exp5a_shock_nopolicy
+13,1,2,0.8824,0.01,0.9738,0.5657,[],Belagavi,exp5a_shock_nopolicy
+14,2,2,0.8859,0.01,0.9738,0.5799,[],Belagavi,exp5a_shock_nopolicy
+15,3,2,0.8656,0.0032,0.9915,0.474,['drought'],Belagavi,exp5a_shock_nopolicy
+16,4,2,0.8433,0.0041,0.9895,0.3879,"['drought', 'economic_crisis']",Belagavi,exp5a_shock_nopolicy
+17,5,2,0.845,0.0057,0.9853,0.4008,"['drought', 'economic_crisis']",Belagavi,exp5a_shock_nopolicy
+18,6,2,0.8485,0.0055,0.9859,0.4138,"['drought', 'economic_crisis']",Belagavi,exp5a_shock_nopolicy
+19,7,2,0.827,0.0052,0.9865,0.327,"['drought', 'flood']",Belagavi,exp5a_shock_nopolicy
+20,8,2,0.8286,0.0068,0.9823,0.3392,['flood'],Belagavi,exp5a_shock_nopolicy
+21,9,2,0.8319,0.0066,0.9829,0.3515,['flood'],Belagavi,exp5a_shock_nopolicy
+22,10,2,0.829,0.0106,0.9628,0.364,[],Belagavi,exp5a_shock_nopolicy
+23,11,2,0.8324,0.0107,0.9637,0.3766,[],Belagavi,exp5a_shock_nopolicy
+24,12,2,0.8358,0.0107,0.9646,0.3893,[],Belagavi,exp5a_shock_nopolicy
